@@ -61,6 +61,7 @@ To train SpanDiff from scratch on your desired dataset, you can use the provided
 ```bash
 CUBLAS_WORKSPACE_CONFIG=:4096:8 python spandiff.py train --config configs/ace2004.conf
 
+```
 
 ## Acknowledgement
 
