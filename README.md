@@ -63,6 +63,36 @@ CUBLAS_WORKSPACE_CONFIG=:4096:8 python spandiff.py train --config configs/ace200
 
 ```
 
+## Datasets
+
+
+
+Nested NER:
+
+
+
+* ACE04: https://catalog.ldc.upenn.edu/LDC2005T09
+
+* ACE05: https://catalog.ldc.upenn.edu/LDC2006T06
+
+* GENIA: http://www.geniaproject.org/genia-corpuss
+
+
+
+Flat NER:
+
+
+
+* OntoNotes: https://github.com/yhcc/OntoNotes-5.0-NER
+
+* CoNLL03: https://data.deepai.org/conll2003.zip
+
+* MSRA: https://github.com/ShannonAI/mrc-for-flat-nested-ner/blob/master/ner2mrc/download.md
+
+
+
+We provide the preprocessed datasets in these links: [ACE2004](https://drive.google.com/drive/folders/10DYZGYqYSRFQZUbGs8OhFtAvaVD1FC0D?usp=sharing), [GENIA](https://drive.google.com/drive/folders/1krNw98zi5mp0KPZGoCo5D5ne8dWV6pUD?usp=sharing), [CoNLL03](https://drive.google.com/drive/folders/17BXWQ2W0zzrbYR8W1KAWSCNSYJcoUGiw?usp=sharing), [MSRA](https://drive.google.com/drive/folders/1wt0XTEG3FFl8uiUyTUYxVwQ1i3oZtOHn?usp=sharing). Please download them and put them into the `data/datasets` folder.
+
 ## Acknowledgement
 
 
