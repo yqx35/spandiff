@@ -62,3 +62,9 @@ To train SpanDiff from scratch on your desired dataset, you can use the provided
 CUBLAS_WORKSPACE_CONFIG=:4096:8 python spandiff.py train --config configs/ace2004.conf
 
 
+## Acknowledgement
+
+
+Our codebase is inspired by and built upon [DiffusionNER](https://github.com/tricktreat/DiffusionNER). We sincerely thank the authors for their foundational work and for open-sourcing their code:
+
+
