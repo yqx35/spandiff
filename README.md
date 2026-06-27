@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 Our experiments utilize standard PLMs. Please ensure you have the appropriate weights downloaded or allow the `transformers` library to fetch them automatically:
 
-* **BERT:** `bert-base-uncased`
+* **PLM:** `deberta-v3-large`
 * *(List any other specific PLMs used, e.g., SciBERT, RoBERTa)*
 
 ## 3. Pretrained Weights & Sample Data
