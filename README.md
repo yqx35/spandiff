@@ -1,4 +1,4 @@
-```markdown
+
 
 # SpanDiff: Relation-Aware Span Diffusion for Nested Named Entity Recognition
 
@@ -153,9 +153,3 @@ CUBLAS_WORKSPACE_CONFIG=:4096:8 python spandiff.py eval --config configs/eval.co
 Our codebase is inspired by and built upon [DiffusionNER](https://github.com/tricktreat/DiffusionNER). We sincerely thank the authors for their foundational work and for open-sourcing their code.
 
 
-
-```
-
-
-
-```
